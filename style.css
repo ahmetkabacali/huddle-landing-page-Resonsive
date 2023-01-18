@@ -94,13 +94,14 @@ footer {
     position: relative;
     margin-top: 15rem;
     background-color: #00252e;
+    width: 100%;
 
 }
  .footer-container {
      color: var(--paleCyan);
      display: flex;
      flex-direction: column;
-     padding: 10rem 10rem 7rem 10rem;
+     padding: 10rem 10% 7rem 10%;
      font-family: 'Open Sans', sans-serif;
 }
 
@@ -169,13 +170,13 @@ footer {
 }
 /******************** attribution ********************/
  .attribution {
-    width: 100%;
      font-size: 1rem;
      text-align: center;
-     margin-top: 0.5rem;
+     color: #fff;
+     height: 2rem;
 }
  .attribution a {
-     color: hsl(228, 45%, 44%);
+     color: hsl(122, 78%, 39%);
 }
 /******************** media ********************/
  @media(max-width:1024px) {
@@ -239,6 +240,12 @@ footer {
         text-align: center;
         padding-bottom: 1rem;
     }
+/******************** attribution ********************/
+    .attribution {
+        font-size: 0.7rem;
+        padding-inline: 1rem;
+   }
+    
     @media(max-width:576px){
         .header-btn, .main-btn {
             width: 90%;
